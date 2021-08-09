@@ -71,10 +71,6 @@ body{
     }
 }
 
-
-
-
-
 .navigation{
     display: flex;
     align-items: center;
@@ -95,8 +91,6 @@ body{
 .action-btn-big{
     color: #cdc2d0;
     font-size: 30px;
-    border: 0;
-    cursor: pointer;
 }
 
 .action-btn:focus{
@@ -113,7 +107,7 @@ body{
     padding: 10px 10px 10px 150px;
     opacity: 0;
     transform: translateY(0%);
-    transition: transform 0.3s ease-in opacity 0.3s ease-in;
+    transition: transform 0.3s ease-in, opacity 0.3s ease-in;
 }
 
 .music-info h4{
@@ -121,7 +115,7 @@ body{
 }
 
 .music-container.play .music-info{
-    opacity: 0.5;
+    opacity: 1;
     transform: translateY(-100%);
 }
 
@@ -129,7 +123,7 @@ body{
     background-color: #fff;
     border-radius: 5px;
     cursor: pointer;
-    margin: 10px 0px;
+    margin: 10px 0;
     height: 4px;
     width: 100%;
 }
